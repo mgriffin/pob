@@ -1,0 +1,21 @@
+.jumbotron {
+  background-image: url('/assets/images/header.jpg');
+}
+ul.gallery li {
+  list-style:none;
+  margin-bottom:25px;
+}
+ul.gallery li img {
+  cursor: pointer;
+}
+ul.gallery li h4 {
+  position absolute:
+  top: 0;
+}
+h1 {
+  text-shadow:
+  -2px -2px 0 #ddd,  
+  2px -2px 0 #ddd,
+  -2px 2px 0 #ddd,
+  2px 2px 0 #ddd;
+}
