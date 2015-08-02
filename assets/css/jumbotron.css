@@ -4,13 +4,10 @@
 ul.gallery li {
   list-style:none;
   margin-bottom:25px;
+  height: 250px;
 }
 ul.gallery li img {
   cursor: pointer;
-}
-ul.gallery li h4 {
-  position absolute:
-  top: 0;
 }
 h1 {
   text-shadow:
