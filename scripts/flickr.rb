@@ -1,9 +1,9 @@
 require 'date'
 require 'flickraw'
 
-FlickRaw.api_key = "***REMOVED***"
-FlickRaw.shared_secret = "***REMOVED***"
-user_id = "***REMOVED***"
+FlickRaw.api_key = ENV['FLICKR_API_KEY']
+FlickRaw.shared_secret = ENV['FLICKR_SHARED_SECRET']
+user_id = ENV['FLICKR_USER_ID']
 
 flickr.access_token = ENV['FLICKR_ACCESS_TOKEN']
 flickr.access_secret = ENV['FLICKR_ACCESS_SECRET']
